@@ -1,0 +1,72 @@
+* {
+    background-color:silver;
+}
+
+.picture1 {
+    width: 800px;
+    height: 500px;
+    border-radius: 40px;
+    opacity: 1;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.word {
+    font-family: Engravers MT;
+    background-color: yellow;
+    color: brown;
+    width: 600px;
+    border-radius: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.luxmundi {
+    color: brown;
+    font-size: 45px;
+    font-family: Engravers MT;
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.p {
+    color: green;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+footer {
+    color:blue;
+}
+
+.my_experience {
+    color: brown;
+    font-size: 45px;
+    font-family: Engravers MT;
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.experience {
+    color: green;
+    font-family: Times New Roman;
+    font-size: 40px;
+}
